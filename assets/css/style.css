@@ -1,0 +1,274 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Satisfy', cursive;
+}
+
+.callout-container {
+    height: 100vh;
+
+    background:url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/15202653_1850284181875307_6478279155535272950_n.jpg?_nc_cat=104&ccb=2&_nc_sid=e3f864&_nc_ohc=F9q1Migd57EAX-x5PSr&_nc_ht=scontent.fgse1-1.fna&oh=588de1cbc7ad441b80b430979dfdbf82&oe=5FD3D89B) no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    color:rgb(255, 140, 0);
+}
+
+.navbar .navbar-nav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.jumbotron .lead {
+    color: white;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+#ContactsHeader {
+    height: 60vh;
+
+    background:url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/95528712_2640309516206099_2319383705363152896_o.jpg?_nc_cat=102&ccb=2&_nc_sid=9267fe&_nc_ohc=E60Qw-4kLxcAX-84a0d&_nc_ht=scontent.fgse1-1.fna&oh=dbbc48f57fae46cdf1321dc3dd897802&oe=5FCE236D) no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: center;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+#EventsHeader {
+    height: 60vh;
+
+    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/107645365_2695740977329619_1514826394631113953_o.jpg?_nc_cat=103&ccb=2&_nc_sid=9267fe&_nc_ohc=jGdZa4zbW5cAX-SxQmB&_nc_ht=scontent.fgse1-1.fna&oh=7f1369229b05eeb9eef2efbd04d0a2c9&oe=5FCE325A)no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: center;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+#MenuHeader {
+    height: 60vh;
+
+    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/80783053_2517471575156561_7287040100796465152_o.jpg?_nc_cat=109&ccb=2&_nc_sid=9267fe&_nc_ohc=el0eiMCPRxIAX_tvgbK&_nc_ht=scontent.fgse1-1.fna&oh=b7b5194ad2574e335b2c7be59047194d&oe=5FDA3397)no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: center;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+#GalleryHeader {
+    height: 60vh;
+
+    background: url(https://scontent.fgse1-1.fna.fbcdn.net/v/t31.0-8/23157168_2011316182438772_6640184187014138568_o.jpg?_nc_cat=101&ccb=2&_nc_sid=9267fe&_nc_ohc=mJg962cW4E4AX8xy_pV&_nc_ht=scontent.fgse1-1.fna&oh=1c65bfaefc0155fc23c058bcccbfaea5&oe=5FD720EB)no-repeat bottom fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: center;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color:rgb(255, 140, 0);
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+footer {
+    display: block;
+    float: center;
+    background-color: white;
+}
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(255, 140, 0);
+}
+
+/*Gallery ref:https://css-tricks.com/adaptive-photo-layout-with-flexbox/ */
+
+.gallery-unordered {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-list {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+.img-gallery {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+@media screen and (max-width: 800px) {
+    .callout-container {
+        background:url(https://scontent.fgse1-1.fna.fbcdn.net/v/t1.0-9/65749872_2376811332555920_4319354420954398720_o.jpg?_nc_cat=111&ccb=2&_nc_sid=9267fe&_nc_ohc=zvWs21NO9zsAX-mV2KM&_nc_ht=scontent.fgse1-1.fna&oh=8a47bf228eb1ce9d039c365ad5de1b71&oe=5FD70893) no-repeat center fixed;
+        -webkit-background-size:cover;
+        -moz-background-size: cover;
+        -o-background-size:cover;
+        background-size: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {
+  .gallery-list {
+    height: 30vh;
+  }
+}
+
+
+@media (max-height: 480px) {
+  .gallery-list {
+    height: 80vh;
+  }
+}
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  .gallery-unordered {
+    flex-direction: row;
+  }
+
+  .gallery-list {
+    height: auto;
+    width: 100%;
+  }
+
+  .img-gallery {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
+}
