@@ -36,7 +36,11 @@ The main focus of this project is to produce a responsive, clean and intuitive p
 I started working on a first raw version of this project on October and it can be seen here: [BarRobusta](https://github.com/ClaudiaLie/BarRobusta).
 ## External Credits
 * I found myself relying a lot on [W3Schools website](https://www.w3schools.com/) whenever I had a doubt on specific issues. 
-* I also checked suggestions on [Bootstrap website](https://getbootstrap.com/) for what concernes the Events section (where I used a table element to build a calendar of events) and the Contacts section to build up properly a form to book a table.
+* I checked suggestions on [Bootstrap website](https://getbootstrap.com/) for what concernes:
+    * [The Booking form](https://getbootstrap.com/docs/4.4/components/forms/)
+* Calendar date picker is from [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local)
 
+## Bugs
+* The table element wasn't responsive so I've found a nice compromise on [Stack Overflow](https://stackoverflow.com/questions/40512604/bootstrap-table-is-not-responsive)
 
 # Links
