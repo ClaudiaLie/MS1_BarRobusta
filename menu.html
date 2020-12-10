@@ -13,26 +13,30 @@
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body> 
-        <div class="container-fluid navalert-container">
-            <nav class="navbar navbar-dark navbar-expand-sm">
-                <a href="index.html" class="navbar-brand">Bar Robusta</a>
-
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
-
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="events.html">Events</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="contacts.html">Contacts</a></li>
-                    </ul>
+        <nav class="navbar container-fluid navalert-container navbar-dark navbar-expand-md">
+            <a href="index.html" class="navbar-brand">Bar Robusta</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between w-100" id="collapsingNavbar">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid callout-container" id="MenuHeader">
+            <div class="opaque-overlay"> &nbsp;</div>
+            <div class="row">
+                <div class="col-12">
+                    <section class="callout jumbotron text-center">
+                        <h1 class="jumbotron-header">Menu</h1>
+                    </section>
                 </div>
-            </nav>
-        </div>
-        <div class="callout-container" id="MenuHeader">
-                <div class="opaque-overlay"> &nbsp;</div>
+            </div>
         </div>
         <hr>
         <div class="container">
@@ -48,18 +52,11 @@
                       <p> <li> <strong> <mark> Every Tuesday and Wednesday night we are now serving a fast menu!
                         Come enjoy our Cucina Povera!  For only <s> 145kr </s> 125kr! </mark> </li> </strong></p>
                     </div>
+                    <br>
+                    <a class="btn btn-md btn-outline-success" href="contacts.html">Book here </a>
                 </section> 
                 <!-- /.quotes -->
-                <hr>
-                <!-- Callout -->
-                <container class="callout mt-3">
-                    <h1>Menu</h1>
-                    <p class="text-muted text-center">  Our food selection for breakfast, lunch and dinner. 
-                    <br>
-                    <a class="btn btn-sm btn-outline-success" href="contacts.html">Book here </a> </p>
-                </container>
-                <!-- /.callout -->
-                
+
                 <hr>
 
                 <!-- Features -->
@@ -67,22 +64,22 @@
                     <div class="feature">
                         <h3>Breakfast</h3>
                         <p> The smell of the fresh bread from the bakery and a warm coffee to start your day </p>
-                        <p> <a class="btn btn-sm btn-light" href="https://files.basekit.com/4b/70/4b70afed-3116-4fa1-b79b-6a6904a777a6.pdf"> Read the menu </a> </p>
+                        <p> <a class="btn btn-md btn-light" href="https://files.basekit.com/4b/70/4b70afed-3116-4fa1-b79b-6a6904a777a6.pdf"> Read the menu </a> </p>
                     </div>
                     <div class="feature">
                         <h3>Lunch</h3>
                         <p>Take a break from the rush. Everyday a new daily lunch and three of your favourite dishes as regulars</p>
-                        <p> <a class="btn btn-sm btn-light" href="https://files.basekit.com/f2/bf/f2bf4721-2c2d-4050-97c8-c8d9db3d356c.pdf">  Read the menu </a> </p>
+                        <p> <a class="btn btn-md btn-light" href="https://files.basekit.com/f2/bf/f2bf4721-2c2d-4050-97c8-c8d9db3d356c.pdf">  Read the menu </a> </p>
                     </div>
                     <div class="feature">
                         <h3>Dinner</h3>
                         <p> Our Á la carte vision </p>
-                        <p> <a class="btn btn-sm btn-light" href="https://files.basekit.com/ef/8f/ef8fc0fc-6dae-47a0-b8e8-bbd86b5cc808.pdf"> Read the menu </a> </p>
+                        <p> <a class="btn btn-md btn-light" href="https://files.basekit.com/ef/8f/ef8fc0fc-6dae-47a0-b8e8-bbd86b5cc808.pdf"> Read the menu </a> </p>
                     </div>
                     <div class="feature">
                         <h3>Cucina Povera</h3>
                         <p>Following the Italian Cuisine tradition, every Tuesday and Wednesday we offer a two course menu made with simple and genuine ingredients</p>
-                        <p> <a class="btn btn-sm btn-light" href="https://files.basekit.com/75/2e/752e4bf2-04ce-4bd6-9125-c4514b236ff4.pdf"> Read the menu </a> </p>
+                        <p> <a class="btn btn-md btn-light" href="https://files.basekit.com/75/2e/752e4bf2-04ce-4bd6-9125-c4514b236ff4.pdf"> Read the menu </a> </p>
                     </div>
                 </section>
                 <!-- /.features -->

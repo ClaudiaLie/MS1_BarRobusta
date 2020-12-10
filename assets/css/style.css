@@ -19,7 +19,7 @@ h3 {
 }
 
 .callout-container {
-    height: 100vh;
+    height: 60vh;
 
     background: url("../img/header-bar.jpg");
     -webkit-background-size:cover;
@@ -70,8 +70,11 @@ h3 {
 
 .navbar .navbar-brand {
     font-family: 'Satisfy', cursive;
+    font-size: 30px;
     font-weight: bold;
     color:rgb(255, 140, 0);
+    margin-left:20px;
+    margin-right:-150px;
 }
 
 .navbar .navbar-nav a {
@@ -109,12 +112,6 @@ h3 {
     -moz-background-size: cover;
     -o-background-size:cover;
     background-size: center;
-
-    display: block;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
 }
 
 #EventsHeader {
@@ -125,12 +122,6 @@ h3 {
     -moz-background-size: cover;
     -o-background-size:cover;
     background-size: center;
-
-    display: block;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
 }
 
 #MenuHeader {
@@ -141,13 +132,6 @@ h3 {
     -moz-background-size: cover;
     -o-background-size:cover;
     background-size: center;
-
-    display: block;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-
 }
 
 #GalleryHeader {
@@ -158,13 +142,6 @@ h3 {
     -moz-background-size: cover;
     -o-background-size:cover;
     background-size: center;
-
-    display: block;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-
 }
 /* Block dividers */
 
@@ -204,7 +181,7 @@ footer {
 
 .feature .btn {
     background-color: white;
-    border-color: white;
+    border-color: rgb(255, 140, 0);
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
@@ -251,6 +228,7 @@ label {
 @media screen and (max-width: 800px) {
    
     .callout-container {
+        height: 100vh;
         background:url("../img/hero-img-mobile.jpg");
         -webkit-background-size:cover;
         -moz-background-size: cover;
@@ -258,6 +236,14 @@ label {
         background-size: center;
         display: flex;
         position: relative;
+    }
+    .navalert-container{
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+    }
+
+    .jumbotron-header {
+        margin-top:60px;
     }
     .table{
         display: block !important;
