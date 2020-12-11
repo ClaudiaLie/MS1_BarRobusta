@@ -164,10 +164,6 @@ h3 {
     width: 35px;
 }
 
-footer {
-    background-color: white;
-}
-
 .feature {
     text-align: center;
     margin-bottom: 40px;
@@ -189,10 +185,31 @@ footer {
     color: rgb(255, 140, 0);
 }
 
+footer {
+    background-color: rgba(70, 70, 70, 0.9);
+    color: #fafafa;
+    min-height:120px;
+    margin-bottom:10px;
+}
+
+.list-inline {
+    font-size: 40px;
+    text-align: center;
+}
+
+.list-inline-item {
+    color: rgb(255, 140, 0);
+}
+
+.footer-detail {
+    text-align: center;
+}
+
 /* Date Picker*/
 label {
     display: block;
     font: 1rem 'Lato', sans-serif;
+    
 }
 
 input,
