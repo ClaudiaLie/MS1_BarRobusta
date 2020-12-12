@@ -38,6 +38,7 @@ I started working on a first raw version of this project on October and it can b
 * I found myself relying a lot on [W3Schools website](https://www.w3schools.com/) whenever I had a doubt on specific issues. 
 * I checked suggestions on [Bootstrap website](https://getbootstrap.com/) for what concernes:
     * [The Booking form](https://getbootstrap.com/docs/4.4/components/forms/)
+    * [The Carousel Gallery](https://getbootstrap.com/docs/4.0/components/carousel/)
 * Calendar date picker is from [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local)
 
 ## Bugs

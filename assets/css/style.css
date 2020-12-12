@@ -185,11 +185,14 @@ h3 {
     color: rgb(255, 140, 0);
 }
 
+/* Footer */
+
 footer {
     background-color: rgba(70, 70, 70, 0.9);
     color: #fafafa;
     min-height:120px;
-    margin-bottom:10px;
+    margin: 0;
+    padding-top: 15px;
 }
 
 .list-inline {
@@ -197,7 +200,7 @@ footer {
     text-align: center;
 }
 
-.list-inline-item {
+.fa-instagram, .fa-facebook, .fa-map-marker-alt, .fa-phone-alt {
     color: rgb(255, 140, 0);
 }
 
@@ -209,7 +212,6 @@ footer {
 label {
     display: block;
     font: 1rem 'Lato', sans-serif;
-    
 }
 
 input,
@@ -223,24 +225,8 @@ label {
 }
 
 
-/*Gallery ref:https://css-tricks.com/adaptive-photo-layout-with-flexbox/ */
+/*Gallery ref: */
 
-.gallery-unordered {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.gallery-list {
-  height: 40vh;
-  flex-grow: 1;
-}
-
-.img-gallery {
-  max-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
-  vertical-align: bottom;
-}
 
 @media screen and (max-width: 800px) {
    
@@ -254,17 +240,26 @@ label {
         display: flex;
         position: relative;
     }
+
     .navalert-container{
-        background-color: rgba(0, 0, 0, 0.9);
-        color: white;
+        background-color: rgba(70, 70, 70, 0.95);
+        padding:0;
+        margin: 0;
+    }
+
+    .navbar .navbar-brand {
+        font-size:25px;
     }
 
     .jumbotron-header {
         margin-top:60px;
     }
+
     .table{
         display: block !important;
         overflow-x: auto !important;
         width: 100% !important;
     }
+
+   
 }
