@@ -35,7 +35,8 @@ The main focus of this project is to produce a responsive, clean and intuitive p
 # Credits
 I started working on a first raw version of this project on October and it can be seen here: [BarRobusta](https://github.com/ClaudiaLie/BarRobusta).
 ## External Credits
-* I found myself relying a lot on [W3Schools website](https://www.w3schools.com/) whenever I had a doubt on specific issues. 
+* I found myself relying a lot on [W3Schools website](https://www.w3schools.com/) whenever I had a doubt on specific issues, such as:
+    * [Direct mail to an address](https://www.w3schools.com/tags/tag_address.asp)
 * I checked suggestions on [Bootstrap website](https://getbootstrap.com/) for what concernes:
     * [The Booking form](https://getbootstrap.com/docs/4.4/components/forms/)
     * [The Carousel Gallery](https://getbootstrap.com/docs/4.0/components/carousel/)
@@ -50,7 +51,7 @@ I started working on a first raw version of this project on October and it can b
 
 To check the vadility of the website's code, I have used:
 * [W3C HTML Validator](https://validator.w3.org/)
-* [W3C CSS Validator] (https://jigsaw.w3.org/css-validator/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ## Website navigation
 
