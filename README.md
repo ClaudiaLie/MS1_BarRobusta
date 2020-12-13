@@ -41,8 +41,24 @@ I started working on a first raw version of this project on October and it can b
     * [The Carousel Gallery](https://getbootstrap.com/docs/4.0/components/carousel/)
 * Calendar date picker is from [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local)
 
+
+# Testing Details
+[README.md file](https://github.com/ClaudiaLie/MS1_BarRobusta/blob/main/README.md)
+[View Website on GitHub](https://github.com/ClaudiaLie/MS1_BarRobusta)
+
+## Testing
+
+To check the vadility of the website's code, I have used:
+* [W3C HTML Validator](https://validator.w3.org/)
+* [W3C CSS Validator] (https://jigsaw.w3.org/css-validator/)
+
+## Website navigation
+
+To make sure that the website will be efficent 
+
 ## Bugs
 * The table element wasn't responsive so I've found a nice compromise on [Stack Overflow](https://stackoverflow.com/questions/40512604/bootstrap-table-is-not-responsive) with a side scrollbar for smaller screens.
 * I wanted to implement a map using a Google Maps API, but I found out that unfortunally it can't be an option for this project since it requires a payment. I decided to simply include a map tag with Html that shows the location.
+* After the first validation of the website, 7 errors have been found:
 
 # Links
