@@ -42,6 +42,7 @@ I started working on a first raw version of this project on October and it can b
 * Calendar date picker is from [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local)
 
 ## Bugs
-* The table element wasn't responsive so I've found a nice compromise on [Stack Overflow](https://stackoverflow.com/questions/40512604/bootstrap-table-is-not-responsive)
+* The table element wasn't responsive so I've found a nice compromise on [Stack Overflow](https://stackoverflow.com/questions/40512604/bootstrap-table-is-not-responsive) with a side scrollbar for smaller screens.
+* I wanted to implement a map using a Google Maps API, but I found out that unfortunally it can't be an option for this project since it requires a payment. I decided to simply include a map tag with Html that shows the location.
 
 # Links
