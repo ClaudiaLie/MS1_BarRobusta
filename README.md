@@ -53,15 +53,23 @@ To check the vadility of the website's code, I have used:
 * [W3C HTML Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
+To audit the quality of the webpage I used:
+ * [Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
+
 ## Website navigation
 
 To make sure that the website will be efficent 
 
 ## Bugs
-* The table element wasn't responsive so I've found a nice compromise on [Stack Overflow](https://stackoverflow.com/questions/40512604/bootstrap-table-is-not-responsive) with a side scrollbar for smaller screens.
-* I wanted to implement a map using a Google Maps API, but I found out that unfortunally it can't be an option for this project since it requires a payment. I decided to simply include a map tag with Html that shows the location.
-* After the first validation of the website, 7 errors have been found: ![Validator](https://browser-c1571e35-5596-40ee-bac9-d98cce9f9b65.ws-eu03.gitpod.io/workspace/MS1_BarRobusta/assets/img/Validator_CSS.jpg)
-    * The first thing to do is to check Bootstrap CDN, that it was, in fact, outdated by a new version, so all the CDNs had been updated.
-    * The following step is to fix the wrong value on the background-size, by changing it to "cover".
+* The table element wasn't responsive so I've found a nice compromise on [Stack Overflow](https://stackoverflow.com/questions/40512604/bootstrap-table-is-not-responsive) implementing a side scrollbar for smaller screens.
+* I wanted to add a map using a Google Maps API, but I found out that unfortunately it can't be an option for this project since Google requests a payment to generate a code. I decided to simply include an image with a map tag that shows the location on a screenshotted map.
+* After the first validation of the website, 7 errors have been found: ![Validator](https://browser-c1571e35-5596-40ee-bac9-d98cce9f9b65.ws-eu03.gitpod.io/workspace/MS1_BarRobusta/assets/img/Validator_CSS.jpg).
+    * I fixed the wrong value on the background-size, by changing it to "cover".
+    * 
+* The first Lighthouse test showed that I could have improved the performance using the following suggestions:
+    * Using a better formats for the header image;
+    * Deleting the unecessary JavaScript snippets;
+    * 
+
 
 # Links

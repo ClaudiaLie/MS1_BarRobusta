@@ -232,8 +232,6 @@ label {
     padding: 0;
 }
 
-
-
 @media screen and (max-width: 800px) {
    
     .callout-container {
@@ -246,7 +244,7 @@ label {
         display: flex;
         position: relative;
     }
-    
+
     #ContactsHeader {
         height: 60vh;
 
