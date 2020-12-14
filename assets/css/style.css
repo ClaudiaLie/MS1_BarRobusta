@@ -111,7 +111,7 @@ h3 {
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
-    background-size: center;
+    background-size: cover;
 }
 
 #EventsHeader {
@@ -121,7 +121,7 @@ h3 {
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
-    background-size: center;
+    background-size: cover;
 }
 
 #MenuHeader {
@@ -131,7 +131,7 @@ h3 {
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
-    background-size: center;
+    background-size: cover;
 }
 
 #GalleryHeader {
@@ -141,7 +141,7 @@ h3 {
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
-    background-size: center;
+    background-size: cover;
 }
 /* Block dividers */
 
@@ -241,7 +241,7 @@ label {
         -webkit-background-size:cover;
         -moz-background-size: cover;
         -o-background-size:cover;
-        background-size: center;
+        background-size: cover;
         display: flex;
         position: relative;
     }

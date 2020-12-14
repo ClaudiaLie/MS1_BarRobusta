@@ -44,8 +44,8 @@ I started working on a first raw version of this project on October and it can b
 
 
 # Testing Details
-[README.md file](https://github.com/ClaudiaLie/MS1_BarRobusta/blob/main/README.md)
-[View Website on GitHub](https://github.com/ClaudiaLie/MS1_BarRobusta)
+* [README.md file](https://github.com/ClaudiaLie/MS1_BarRobusta/blob/main/README.md)
+* [View Website on GitHub](https://github.com/ClaudiaLie/MS1_BarRobusta)
 
 ## Testing
 
@@ -60,6 +60,8 @@ To make sure that the website will be efficent
 ## Bugs
 * The table element wasn't responsive so I've found a nice compromise on [Stack Overflow](https://stackoverflow.com/questions/40512604/bootstrap-table-is-not-responsive) with a side scrollbar for smaller screens.
 * I wanted to implement a map using a Google Maps API, but I found out that unfortunally it can't be an option for this project since it requires a payment. I decided to simply include a map tag with Html that shows the location.
-* After the first validation of the website, 7 errors have been found:
+* After the first validation of the website, 7 errors have been found: ![Validator](https://browser-c1571e35-5596-40ee-bac9-d98cce9f9b65.ws-eu03.gitpod.io/workspace/MS1_BarRobusta/assets/img/Validator_CSS.jpg)
+    * The first thing to do is to check Bootstrap CDN, that it was, in fact, outdated by a new version, so all the CDNs had been updated.
+    * The following step is to fix the wrong value on the background-size, by changing it to "cover".
 
 # Links
