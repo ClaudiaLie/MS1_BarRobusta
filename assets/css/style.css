@@ -209,6 +209,7 @@ footer {
 }
 
 /* Date Picker*/
+
 label {
     display: block;
     font: 1rem 'Lato', sans-serif;
@@ -224,8 +225,8 @@ label {
     margin: .4rem 0;
 }
 
-
 /*Gallery */
+
 .img-item {
     margin: 0;
     padding: 0;
@@ -245,6 +246,47 @@ label {
         display: flex;
         position: relative;
     }
+    
+    #ContactsHeader {
+        height: 60vh;
+
+        background:url(../img/outside.jpg) no-repeat center fixed;
+        -webkit-background-size:cover;
+        -moz-background-size: cover;
+        -o-background-size:cover;
+        background-size: cover;
+    }
+
+    #EventsHeader {
+        height: 60vh;
+
+        background: url(../img/wine.jpg)no-repeat center fixed;
+        -webkit-background-size:cover;
+        -moz-background-size: cover;
+        -o-background-size:cover;
+        background-size: cover;
+    }
+
+    #MenuHeader {
+        height: 60vh;
+
+        background: url(../img/pasta-menu.jpg)no-repeat center fixed;
+        -webkit-background-size:cover;
+        -moz-background-size: cover;
+        -o-background-size:cover;
+        background-size: cover;
+    }
+
+    #GalleryHeader {
+        height: 60vh;
+
+        background: url(../img/outside-header.jpg)no-repeat bottom fixed;
+        -webkit-background-size:cover;
+        -moz-background-size: cover;
+        -o-background-size:cover;
+        background-size: cover;
+    }
+    
 
     .navalert-container{
         background-color: rgba(70, 70, 70, 0.95);
