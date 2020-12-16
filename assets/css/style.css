@@ -228,9 +228,10 @@ label {
 /*Gallery */
 
 .img-item {
-    margin: 0;
-    padding: 0;
+    margin-bottom: 5px;
+    margin-left: -25px;
 }
+
 
 @media screen and (max-width: 800px) {
    
@@ -284,7 +285,6 @@ label {
         -o-background-size:cover;
         background-size: cover;
     }
-    
 
     .navalert-container{
         background-color: rgba(70, 70, 70, 0.95);
@@ -306,5 +306,12 @@ label {
         width: 100% !important;
     }
 
-   
+   @media screen and (max-width:320px){
+       
+    .img-item {
+        margin-right: 5;
+        padding: 0;
+    }
+       
+   }
 }

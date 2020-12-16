@@ -28,7 +28,7 @@ The main focus of this project is to produce a responsive, clean and intuitive p
  * [Contacts](https://i.imgur.com/SAmuImq.png)
 
  # UX and UXD
- Once we have decided how to structure the information that the website will contain, it's important to focus on the user perspective.
+ Once it's decided how to structure the information that the website will contain, it's important to focus on the user perspective.
  To build an effective user experience there are a few important key points to consider:
  * Familiarity;
  * Consistency;
@@ -45,11 +45,13 @@ The website main structure is inspired by one of the lessons from Code Institute
 
 ## External Credits
 
-* I found myself relying a lot on [W3Schools website](https://www.w3schools.com/) whenever I had a doubt on specific issues, such as:
+* I relied on [W3Schools website](https://www.w3schools.com/) for what concernes:
     * [Direct mail to an address](https://www.w3schools.com/tags/tag_address.asp)
+    * [Map tag](https://www.w3schools.com/tags/tag_map.asp)
 * I checked suggestions on [Bootstrap website](https://getbootstrap.com/) for what concernes:
     * [The Booking form](https://getbootstrap.com/docs/4.4/components/forms/)
     * [The Carousel Gallery](https://getbootstrap.com/docs/4.0/components/carousel/)
+    * I later decided to create a gallery by[playing with responsive images instead of using a Carousel](https://getbootstrap.com/docs/4.0/content/images/#image-thumbnails)
 * Calendar date picker is from [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local)
 
 ## Deployment
