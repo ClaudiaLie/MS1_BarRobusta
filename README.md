@@ -78,15 +78,20 @@ To check the vadility of the website's code, I have used:
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 To audit the quality of the webpage I used:
- * [Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
 
 ## Bugs
 
 * The table element wasn't responsive so I've found a nice compromise on [Stack Overflow](https://stackoverflow.com/questions/40512604/bootstrap-table-is-not-responsive) implementing a side scrollbar for smaller screens.
 * I wanted to add a map using a Google Maps API, but I found out that unfortunately it can't be an option for this project since Google requests a payment to generate a code. I decided to simply include an image with a map tag that shows the location on a screenshotted map.
-* After the first validation of the website, 7 errors have been found: [Validator](https://i.imgur.com/hFWRIc7.jpg).
-    * I fixed the wrong value on the background-size, by changing it to "cover".
+* After the first validation of the website, there were no HTML errors, but 7 CSS errors have been found: [Validator](https://i.imgur.com/hFWRIc7.jpg).
+    * I fixed the wrong value on the background-size, by changing it to "cover";
     * I checked on [Stack Overflow](https://stackoverflow.com/questions/52490004/what-are-all-of-these-w3c-css-validation-warnings-about) how the "unknown vendor extension" error affects the quality of webpage. I decided to increase the compatibility with older browsers by keeping the snippet as it is right now.
+* A CSS validation on the single pages of the website showed the following errors:
+    * [Gallery](https://i.imgur.com/UWkEk9M.jpg), so I have added the alt attribute;
+    * [Events](https://i.imgur.com/sJiE4q9.jpg), so I've changed the button element with a form element;
+    * [Contacts](https://i.imgur.com/V8WJSRi.jpg), so I gave an id to the map image to style it properly, I have deleted the coords in the area element and modified the duplicated id;
+    * [Menu](https://i.imgur.com/FPWTWjl.jpg), so I have changed the p element to a menu element.
 
 * The first Lighthouse test showed that I could have improved the performance using the following suggestions:
     * Using a better formats for the header image;

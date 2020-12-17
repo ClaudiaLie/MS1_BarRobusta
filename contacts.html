@@ -28,7 +28,7 @@
                 </ul>
             </div>
         </nav>
-        <div class="container-fluid callout-container" id="ContactsHeader">
+        <div class="container-fluid callout-container" id="ContactsHero">
             <div class="opaque-overlay"> &nbsp;</div>
             <div class="row">
                 <div class="col-12">
@@ -68,9 +68,9 @@
         <hr>
         <!-- Map ref:https://www.w3schools.com/tags/tag_map.asp-->
         <div class="container">
-            <img src="assets/img/map_mobile.jpg" alt="Workplace" usemap="#workmap" width="100%" height="100%">
+            <img src="assets/img/map_mobile.jpg" alt="Workplace" usemap="#workmap" id="map_mobile">
             <map name="workmap">
-                <area shape="default" coords="0,0,0,0" alt="Map" href="assets/img/map.jpg">
+                <area shape="default" alt="Map" href="assets/img/map.jpg">
             </map>
         </div>
         <!--/ Map-->
@@ -84,8 +84,8 @@
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Phone number</label>
-                    <input type="number" class="form-control" id="exampleFormControlInput1" required>
+                    <label for="exampleFormControlInput2">Phone number</label>
+                    <input type="number" class="form-control" id="exampleFormControlInput2" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Guests</label>
@@ -99,7 +99,7 @@
                         <option>more</option>
                     </select>
                 </div>
-                <h6> Allergies: </h6>
+                <h6> Food restrictions: </h6>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                     <label class="form-check-label" for="inlineCheckbox1">Dairy</label>
@@ -113,17 +113,17 @@
                     <label class="form-check-label" for="inlineCheckbox3">Vegetarian </label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                    <label class="form-check-label" for="inlineCheckbox3">Vegan </label>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                    <label class="form-check-label" for="inlineCheckbox4">Vegan </label>
                 </div>
                 <!-- Date picker ref:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local -->
                 <div class="form-group"> 
                     <br>
                     <label for="meeting-time">Select a date and time:</label>
-                    <input type="datetime-local" name="meeting-time" value="2021-06-12T19:30" min="2021-06-07T10:00" max="2021-06-14T20:00" required>
+                    <input type="datetime-local" id="meeting-time" value="2021-06-12T19:30" min="2021-06-07T10:00" max="2021-06-14T20:00" required>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1"> Additional Informations</label>
+                    <label for="exampleFormControlTextarea1"> Additional informations</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <button type="button" class="btn btn-outline-success">Submit</button>
