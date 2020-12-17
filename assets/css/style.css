@@ -279,6 +279,7 @@ label {
     }
     
     #GalleryHero {
+    height: 50%;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
@@ -294,6 +295,7 @@ label {
     }
 
     #EventsHero {
+    height: 50%;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
@@ -309,6 +311,7 @@ label {
     }
 
     #MenuHero {
+    height: 50%;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
@@ -324,6 +327,7 @@ label {
     }
 
     #ContactsHero {
+    height: 50%;
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size:cover;
