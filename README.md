@@ -5,19 +5,35 @@ The project is a website for a restaurant and it uses basic Html5, CSS3 and Boot
 I got inspired by the restaurant I've been working for a year now, so the menus, the pictures and the logos are taken from a real place, with permission from the owners to use their copyrighted material. 
 It's important for me to add that the restaurant has a website already, and it can be seen here: [barrobusta.se](https://www.barrobusta.se/). I didn't take any inspiration from it, but the existing website gave me a fun challenge to create a new representation of the place that can reflect fairly its mood and brand.
 
-# Objective
+# UX
+## Objective
 
 The main focus of this project is to produce a responsive, clean and intuitive product which also contains
- all the useful informations a user would expect to find on a restaurant website. Its target audience is very wide, all genders from 18 years old to 80 years old.
+ all the useful informations a user would expect to find on a restaurant website. 
+ Its target audience is very wide, all genders from 18 years old to 80 years old.
+ To build an efficent website it's important to focus on an efficent design aswell, so there are a few important key points to consider:
+ * The user must have an easy navigation. 
+    * It's very important that the user doesn't struggle when navigating through the website, so having a standard website structure with a navbar on top and contact details on the footer, makes the user confident on the actions he has to make to explore the page;
+ * A consistent design. 
+    * Having the same color scheme and the same design structure on a website helps to define a brand and, again, give the user a less confusing and chaotic feeling while navigating;
+ * Help the user.
+    * With some tricks the user can be drawn to an ideal navigation path. Buttons, bold titles and shortcuts can make the experience efficent and less tiring. 
 
- # Features
+ ## Features
 
  The website is build with page areas, and it contains:
  * A homepage;
  * A menu section with a "special annoucements" board;
  * A photo gallery;
- * An events section;
+ * An events section with an events calendar;
  * A contacts page with a booking form.
+
+  The page areas have a consistent design with a top navbar, a bottom page footer and a hero image of a fixed size, that changes only to contextualize the visited page. 
+ 
+ The color scheme uses the following shades:
+ * Rgba(0, 0, 0, 0.5) for the navbar overlay, that gives a gentle shadow effect on the hero image and avoids strong color separations;
+ * Rgba(70, 70, 70, 0.95) for the navbar on mobile and tablets and it matches the footer color;
+ * Rgb(255, 140, 0) for the brand name. It's a bright orange color that will repeat through different elements of the website, such as the media links and page blocks;
 
  ## Wireframes
  
@@ -26,22 +42,24 @@ The main focus of this project is to produce a responsive, clean and intuitive p
  * [Gallery](https://i.imgur.com/nKg4NOt.png)
  * [Events](https://i.imgur.com/BnzC0dY.png)
  * [Contacts](https://i.imgur.com/SAmuImq.png)
-
- # UX and UXD
- Once it's decided how to structure the information that the website will contain, it's important to focus on the user perspective.
- To build an effective user experience there are a few important key points to consider:
- * Familiarity;
- * Consistency;
- * Predictability;
- * User Assistance.
  
  ## Goal of the Business
+ * "We want to increase the sales";
+ * "We want to expand our customer base";
+ * "We want to show that the restaurant can offer an interesting experience";
+ * "We want to make easy for everyone to find us, boosting the media engagement";
 
- ## Goal of the User
+ ## User Stories/ Goal of the User
+ * "I found this restaurant with a web search and I want to know more about it";
+ * "I heard about this restaurant and I want to reserve a table";
+ * "I want to find a place to have a Wine Tasting";
+ * "I am looking for an Italian Restaurant with traditional recepies".
 
 # Credits
 I started working on a first raw version of this project on October and it can be seen here: [BarRobusta](https://github.com/ClaudiaLie/BarRobusta).
 The website main structure is inspired by one of the lessons from Code Institute, The Whiskey Drop landing page tutorial.
+
+## Images
 
 ## External Credits
 
@@ -66,12 +84,9 @@ To deploy a website from GitHub Pages the following steps must be followed:
     6. After pushing your changes make sure your project is set to Public in the setting section and select a source branch to enable GitHub Pages to publish your repository;
     7. The website is now successfully deployed! The URL will be visible on your repository settings.
 
-# Testing Details
+# Testing 
 
-* [README.md file](https://github.com/ClaudiaLie/MS1_BarRobusta/blob/main/README.md)
-* [View Website on GitHub](https://github.com/ClaudiaLie/MS1_BarRobusta)
-
-## Testing
+## Testing Details
 
 To check the vadility of the website's code, I have used:
 * [W3C HTML Validator](https://validator.w3.org/)
@@ -97,4 +112,17 @@ To audit the quality of the webpage I used:
     * Using a better formats for the header image;
     * Deleting the unecessary JavaScript snippets;
 
+## User Stories Testing
+ * "I found this restaurant with a web search and I want to know more about it"
+    * 
+ * "I heard about this restaurant and I want to reserve a table"
+    * 
+ * "I want to find a place to have a Wine Tasting"
+    * 
+ * "I am looking for an Italian Restaurant with traditional recepies"
+    * 
+
+
 # Links
+* [README.md file](https://github.com/ClaudiaLie/MS1_BarRobusta/blob/main/README.md)
+* [View Website on GitHub](https://github.com/ClaudiaLie/MS1_BarRobusta)
