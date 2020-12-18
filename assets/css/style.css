@@ -265,6 +265,7 @@ label {
     }
 
     .navalert-container{
+        position: fixed;
         background-color: rgba(70, 70, 70, 0.95);
         padding:0;
         margin: 0;
